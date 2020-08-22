@@ -1,5 +1,6 @@
 import 'dart:ui';
 export 'package:flutter/material.dart';
+export 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:flutter/material.dart';
 
 class Palette {
@@ -36,7 +37,13 @@ class Palette {
   //Color.fromRGBO(185, 190, 194, 100) //(255, 255, 255, 0.7)
   static const Color icon = Color(0xFF223343);
   //Color.fromRGBO(34, 33, 43, 100),
+
   static const Color appbar65 = Color.fromRGBO(23, 38, 52, .65);
+  static const Color appbar50 = Color.fromRGBO(23, 38, 52, .5);
+  static const Color appbar40 = Color.fromRGBO(23, 38, 52, .4);
+  static const Color appbar30 = Color.fromRGBO(23, 38, 52, .3);
+  static const Color white20 = Color.fromRGBO(255, 255, 255, .2);
+  static const Color white10 = Color.fromRGBO(255, 255, 255, .1);
 
   static const LinearGradient greenblue = LinearGradient(
     begin: Alignment.bottomLeft,
