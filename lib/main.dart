@@ -1,5 +1,5 @@
 import 'package:imacoustic/config/palette.dart';
-import 'package:imacoustic/screens/root.dart';
+import 'package:imacoustic/screens/roots/root.dart';
 
 void main() => runApp(
       MaterialApp(

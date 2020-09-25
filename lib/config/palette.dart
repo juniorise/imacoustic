@@ -38,6 +38,8 @@ class Palette {
   static const Color icon = Color(0xFF223343);
   //Color.fromRGBO(34, 33, 43, 100),
 
+  static const Color appbar80 = Color.fromRGBO(23, 38, 52, .8);
+  static const Color appbar70 = Color.fromRGBO(23, 38, 52, .7);
   static const Color appbar65 = Color.fromRGBO(23, 38, 52, .65);
   static const Color appbar50 = Color.fromRGBO(23, 38, 52, .5);
   static const Color appbar40 = Color.fromRGBO(23, 38, 52, .4);
